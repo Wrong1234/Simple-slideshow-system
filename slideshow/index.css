@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slide-container{
+   background-color: rgb(195, 218, 219);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px 0 20px 0;
+}
+.slide-container i{
+   padding: 20px;
+   
+}
+.slide-container .fa{
+    font-size: 50px;
+}
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 8px 8px rgba(0 , 0 , 0 , 0.5);
+}
+.slider{
+   display: flex;
+   transition: all 1s ease;
+}
+.slide{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+  transform: 1s;
+}
+button{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
